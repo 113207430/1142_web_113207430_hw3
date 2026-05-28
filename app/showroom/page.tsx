@@ -24,9 +24,9 @@ export default function Showroom() {
         <Tree position={[2, 0.01, 0]}/>
         <Sabrina position={[0, 0.045, 0]} />
         
-        <RoundedBox position={[0,0,0]} args={[20,0.1,20]} radius={0.05}>
+        {/* <RoundedBox position={[0,0,0]} args={[20,0.1,20]} radius={0.05}>
           <meshStandardMaterial color="gray" />
-        </RoundedBox>
+        </RoundedBox> */}
 
         <EffectComposer>
           <Bloom intensity={2.0} />
